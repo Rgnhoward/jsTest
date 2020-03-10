@@ -1,0 +1,27 @@
+header h1 {
+  text-align: center;
+  color: #000000;
+  
+}
+div#header{
+  width: auto;
+  height: 80px;
+  background-color: gray;
+  margin: 0 auto;
+  content: center;
+  padding-top: 10px;
+}
+div#nav ul {
+  text-align: center;
+}
+div#nav li{
+ display: inline;
+	margin-right: 55px;
+}
+div#nav {
+  border: double;
+ 
+}
+div#content h2{
+  text-align: center;
+}
