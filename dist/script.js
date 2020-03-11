@@ -1,11 +1,26 @@
-//var user= prompt("Please enter your name", "");
+// declare variables
+var userName;
+var userNum;
+var guess;
+var button = document.getElementById(id);
 
-if (user != null) {
-  greeting = "Welcome";
-} else 
-  greeting = "Try Again";
-function guessAge(){
-return Math.floor(Math.random()*100);
+switch(id){
+  case 1:
+    btnName = (button.onClick = promptUser()); break;
+  case 2:
+     btnNum = (button.onClick = promptNum()); break;   
 }
-button.onclick = guessAge();
-document.write("Are you " + guessAge() + " years old?");
+
+function promptUser(){  
+userName= prompt("Please enter your name");
+console.log(userName);
+document.write("Welcome to my javaScript test page " + userName);
+}
+
+function promptNum(){
+userNum = prompt("Please enter a number between 0-100");
+console.log(userNum);
+}
+guess = Math.floor((Math.random() *100) +1);
+console.log(guess);
+document.write("Is your number " + guess + " ?" );

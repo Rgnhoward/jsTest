@@ -11,17 +11,10 @@ div#header{
   content: center;
   padding-top: 10px;
 }
-div#nav ul {
+div#nav  {
   text-align: center;
-}
-div#nav li{
- display: inline;
-	margin-right: 55px;
-}
-div#nav {
   border: double;
- 
 }
-div#content h2{
-  text-align: center;
+ div#nav button{
+  margin: 10px 50px;
 }
